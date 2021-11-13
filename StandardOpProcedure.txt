@@ -1,0 +1,17 @@
+What to do during the NECCDC:
+
+1. Login to all machines
+2. make sudoers require password
+3. remove sshkeys
+4. view user accounts
+5. remove malicious useraccounts 
+6. overwrite skeleton directory configurations
+7. make new account & add remote login detector for user and root/ delete old account
+8. flush iptables rules
+9. update and install ufw, nmap, tmux and other tools as necessary
+10. nmap yourself
+11. block ports
+12. wireshark yourself
+13. block ports
+14. ensure services are taken care of
+
