@@ -18,10 +18,7 @@ then
 
 	useradd -u 12345 -g wheel -m -s /bin/bash -p $(echo $newPasswd | openssl passwd -1 -stdin) spudnik
 
-	echo "adding remote login detector"​
-
-	sudo echo "wall someone logged into the $USER account from $SSH_CONNECTION" >> /home/spudnik/.bashrc​
-
+	
 	echo -e "${Green}user spudnik made with given password ${NC}"
 
 	exit 0
