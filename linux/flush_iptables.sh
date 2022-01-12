@@ -5,12 +5,12 @@
 # rogue rule is added in by Red Team
 
 # tested on Linux Mint by Patrick Temple
-# (GH user patrick-a-temple)
+# (GH user patrick-a-temple) updated 12 January 2022
 
 # instructions come from:
 # https://www.digitalocean.com/community/tutorials/how-to-list-and-delete-iptables-firewall-rules
 
-if [ $UID -ne 0 ];
+if [ $UID != 0 ];
 then
 	echo "ERROR: You must run this as the root user or with sudo."
 	echo "This program will now exit."
